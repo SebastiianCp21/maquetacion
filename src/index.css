@@ -3,15 +3,16 @@
   margin: 0;
   padding: 0;
 }
-/* Estilos del Navbar */
+
 .navbar {
-  height: 100px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color:lightblue;
   padding: 15px 20px;
-  color: white;
+  color: black;
+  border: 2px solid #444;
 }
 
 .navbar-brand {
@@ -33,30 +34,45 @@
 
 .navbar-menu a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 16px;
   transition: color 0.3s;
 }
 
 .navbar-menu a:hover {
-  color: #ffcc00;
+  color: purple;
 }
-/* Estilos del Aside Vertical */
+.aside {
+  width: 250px;
+  background-color: lightblue;
+  color: white;
+  padding: 20px;
+  position: absolute; 
+  top: 100px; 
+  left: 0;
+  height: 570px;
+  min-height: 300px; 
+  border: 2px solid #444;
+  
+
+}
 
 
 
 .boxs-container {
-  padding: 20px;
+  padding: 40px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 8px;
+  height: 90vh;
+
  
 }
 .box {
   background-color: lightblue;
   border: 2px solid black;
-  min-height: 150px; /* Aumenta la altura mínima */
+  min-height: 150px; 
 }
   
 .box1 {
@@ -95,11 +111,4 @@
   grid-row-start: 3;
 }
 
-.box7 {
-  grid-column: span 2 / span 2;
-  grid-row: span 3 / span 3;
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-      
 

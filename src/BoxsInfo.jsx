@@ -7,7 +7,6 @@ function BoxesInfo() {
         <div className="box box4"></div>
         <div className="box box5"></div>
         <div className="box box6"></div>
-        <div className="box box7"></div>
       </div>
     );
   }
